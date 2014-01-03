@@ -6,3 +6,6 @@ set expandtab
 
 " Set tab width to 2 spaces
 set tabstop=2 shiftwidth=2
+
+" Use continuous indenting
+set cindent
