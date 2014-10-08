@@ -13,3 +13,4 @@
     - godlygeek/tabular
     - plasticboy/vim-markdown
     - junegunn/goyo.vim
+    - vim-scripts/sql.vim--Stinson
