@@ -1,7 +1,5 @@
-vimrc
-=====
-
-My vim configuration
+# vimrc
+*My vim configuration*
 
 
 ```sh

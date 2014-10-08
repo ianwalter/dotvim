@@ -1,3 +1,6 @@
+" Turn syntax highlighting on
+syntax on
+
 " Display line numbers on the left
 set number
 
