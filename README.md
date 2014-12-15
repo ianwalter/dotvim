@@ -11,7 +11,7 @@ sh ~/.vim_runtime/install_vimrc.sh
 ```
 
 ## Plugins
-- tpope/vim-fugitive
+- tpope/vim-fugitive - Git commands
 - tpope/vim-surround
 - nathanaelkane/vim-indent-guides
 - sjl/gundo.vim
@@ -22,3 +22,15 @@ sh ~/.vim_runtime/install_vimrc.sh
 - junegunn/goyo.vim
 - vim-scripts/sql.vim--Stinson
 
+## Shortcuts
+- `Shift+v` Highlight mode
+- `l` Right
+- `k` Up
+- `j` Down
+- `h` Right
+- `dd` Delete line (or cut in highlight mode)
+- `yy` Copy
+- `p` Paste
+- `Enter` New line below cursor
+- `Shift+Enter` New line above cursor
+- `cw` Change word
