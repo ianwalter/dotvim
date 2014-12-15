@@ -11,16 +11,29 @@ sh ~/.vim_runtime/install_vimrc.sh
 ```
 
 ## Plugins
-- tpope/vim-fugitive - Git commands
-- tpope/vim-surround
-- nathanaelkane/vim-indent-guides
-- sjl/gundo.vim
-- scrooloose/nerdtree
-- Chiel92/vim-autoformat
-- godlygeek/tabular
-- plasticboy/vim-markdown
-- junegunn/goyo.vim
-- vim-scripts/sql.vim--Stinson
+- [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) - Git
+  - `:Gstatus` Status
+  - `:Gblame` Blame
+  - `:Gbrowse` Open current file on GitHub
+  - `:Git [command]` All git commands
+- [tpope/vim-surround](https://github.com/tpope/vim-surround) - Quoting/parenthesizing
+  - `cs[sorrounding][replacement]`
+- [nathanaelkane/vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides) - Visual indentation guides
+  - TODO Figure out toggle command
+- [sjl/gundo.vim](https://github.com/sjl/gundo.vim) - Visual undo tree
+  - TODO
+- [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) - Tree explorer
+  - TODO
+- [Chiel92/vim-autoformat](https://github.com/Chiel92/vim-autoformat) - Code formatting
+  - `:Autoformat` or `:Autoformat js`
+- [godlygeek/tabular](https://github.com/godlygeek/tabular) - Lines up text with tabs
+  - `:Tabularize /[pattern]`
+- [plasticboy/vim-markdown](https://github.com/plasticboy/vim-markdown) 
+  - TODO
+- [junegunn/goyo.vim](https://github.com/junegunn/goyo.vim) - Distraction-free writing
+  - `:Goyo`
+- [vim-scripts/sql.vim--Stinson](https://github.com/vim-scripts/sql.vim--Stinson) - Better SQL syntax highlighting
+- [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) - Configurable statusline
 
 ## Shortcuts
 - `Shift+v` Highlight mode
@@ -34,3 +47,4 @@ sh ~/.vim_runtime/install_vimrc.sh
 - `Enter` New line below cursor
 - `Shift+Enter` New line above cursor
 - `cw` Change word
+- `:set paste` Paste-insert mode
