@@ -23,7 +23,8 @@ sh ~/.vim_runtime/install_vimrc.sh
 - [sjl/gundo.vim](https://github.com/sjl/gundo.vim) - Visual undo tree
   - TODO
 - [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) - Tree explorer
-  - TODO
+  - `:NERDtree` to toggle
+  - `<Ctrl+w><Ctrl+w>` to switch between windows
 - [Chiel92/vim-autoformat](https://github.com/Chiel92/vim-autoformat) - Code formatting
   - `:Autoformat` or `:Autoformat js`
 - [godlygeek/tabular](https://github.com/godlygeek/tabular) - Lines up text with tabs
