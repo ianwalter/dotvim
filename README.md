@@ -1,7 +1,6 @@
-
-# In vim:# vimrc
-nfiguration*
-
+# vimrc
+*My vim configuration*
+ 
 ## Installation
 ```sh
 # Install Vundle
