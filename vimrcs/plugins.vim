@@ -21,6 +21,7 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'vim-scripts/sql.vim--Stinson'
 Plugin 'itchyny/lightline.vim'
 Plugin 'fatih/vim-go'
+Plugin 'elixir-lang/vim-elixir'
 
 " All of your Plugins must be added before the following line
 call vundle#end()            " required

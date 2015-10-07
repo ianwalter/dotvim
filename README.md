@@ -1,6 +1,6 @@
 # vimrc
 *My vim configuration*
- 
+
 ## Installation
 ```sh
 # Install Vundle
@@ -32,12 +32,14 @@ sh ~/.vim_runtime/install_vimrc.sh
   - `:Autoformat` or `:Autoformat js`
 - [godlygeek/tabular](https://github.com/godlygeek/tabular) - Lines up text with tabs
   - `:Tabularize /[pattern]`
-- [plasticboy/vim-markdown](https://github.com/plasticboy/vim-markdown) 
+- [plasticboy/vim-markdown](https://github.com/plasticboy/vim-markdown)
   - TODO
 - [junegunn/goyo.vim](https://github.com/junegunn/goyo.vim) - Distraction-free writing
   - `:Goyo`
 - [vim-scripts/sql.vim--Stinson](https://github.com/vim-scripts/sql.vim--Stinson) - Better SQL syntax highlighting
 - [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) - Configurable statusline
+- [fatih/vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim
+- [elixir-lang/vim-elixir](https://github.com/elixir-lang/vim-elixir) - Vim configuration files for Elixir
 
 ## Shortcuts
 - `Shift+v` Highlight mode
