@@ -1,5 +1,10 @@
 # Changes
 
+## 2/16/2015:
+
+- Modified install.sh so that this is pluggable into the higher-level dotfiles
+project.
+
 ## 10/8/2014:
 
 - Added Vundle

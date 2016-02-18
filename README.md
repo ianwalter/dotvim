@@ -1,13 +1,10 @@
-# vimrc
-*My vim configuration*
+# [dotvimrc](https://github.com/ianwalter/dotvimrc)
+Ian's vim configuration.
 
 ## Installation
 ```sh
-# Install Vundle
-git clone https://github.com/gmarik/Vundle.vim.git ~/.vim/bundle/Vundle.vim
-
-git clone git://github.com/ianwalter/vimrc.git ~/.vim_runtime
-sh ~/.vim_runtime/install_vimrc.sh
+# Run install script.
+./install.sh
 
 # In vim run:
 :BundleInstall
@@ -54,3 +51,7 @@ sh ~/.vim_runtime/install_vimrc.sh
 - `Shift+Enter` New line above cursor
 - `cw` Change word
 - `:set paste` Paste-insert mode
+
+&nbsp;
+
+Created by [Ian Kennington Walter](http://iankwalter.com).
