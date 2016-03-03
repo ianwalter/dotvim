@@ -25,6 +25,9 @@ Ian's vim configuration.
 - [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) - Tree explorer
   - `:NERDtree` to toggle
   - `<Ctrl+w><Ctrl+w>` to switch between windows
+- [scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter) - Commenting
+  - `\cc` to comment a line
+  - `\cu` to uncomment a line
 - [Chiel92/vim-autoformat](https://github.com/Chiel92/vim-autoformat) - Code formatting
   - `:Autoformat` or `:Autoformat js`
 - [godlygeek/tabular](https://github.com/godlygeek/tabular) - Lines up text with tabs
