@@ -1,5 +1,5 @@
 # [dotvimrc](https://github.com/ianwalter/dotvimrc)
-Ian's vim configuration.
+Ian's vim configuration (part of [dotfiles](https://github.com/ianwalter/dotfiles)).
 
 ## Installation
 ```sh
