@@ -42,6 +42,8 @@ Ian's vim configuration (part of [dotfiles](https://github.com/ianwalter/dotfile
 - [elixir-lang/vim-elixir](https://github.com/elixir-lang/vim-elixir) - Vim configuration files for Elixir
 
 ## Shortcuts
+- `i` Insert
+- `a` Append
 - `Shift+v` Highlight mode
 - `l` Right
 - `k` Up
