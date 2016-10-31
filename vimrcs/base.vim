@@ -17,8 +17,10 @@ set cindent
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>
 
+" Enable 256 colors
+if !has('gui_running')
+  set t_Co=256
+endif
+
 " Add git status to statusline
 set laststatus=2
-let g:lightline = {
-\ 'colorscheme': 'solarized',
-\ }
