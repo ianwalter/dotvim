@@ -10,6 +10,9 @@ fi
 # Concatenate base and plugin configurations into a single vim configuration.
 cat vimrcs/base.vim vimrcs/plugins.vim > ~/.vimrc
 
+# Install plugins.
+vim +PluginInstall +qall
+
 if [[ $? == 0 ]]; then
   echo "Installed vim configuration successfully."
 fi
