@@ -18,7 +18,7 @@ map <Enter> o<ESC>
 map <S-Enter> O<ESC>
 
 " Add git status to statusline
-set laststatus=2 
+set laststatus=2
 let g:lightline = {
-\ 'colorscheme': 'solarized_dark',
+\ 'colorscheme': 'solarized',
 \ }
