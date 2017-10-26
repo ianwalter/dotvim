@@ -24,3 +24,6 @@ endif
 
 " Add git status to statusline
 set laststatus=2
+
+" Tell vim to use bash instead of default (fish)
+set shell=/bin/bash
