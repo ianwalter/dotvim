@@ -1,5 +1,16 @@
 #!/bin/bash
 
+# Install vim if it's not installed.
+if ! [[ `which vim` ]]; then
+  if [[ $(uname) == 'Darwin' ]]; then
+    if [[ `which brew` ]]; then
+      brew install vim
+    fi
+  else
+    sudo apt-get install -y vim
+  fi
+fi
+
 # Install or update Vundle.
 if [ -d ~/.vim/bundle/Vundle.vim ]; then
   git -C ~/.vim/bundle/Vundle.vim pull origin master
