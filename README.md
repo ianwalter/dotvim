@@ -2,12 +2,9 @@
 > Ian's vim configuration (part of [dotfiles](https://github.com/ianwalter/dotfiles)).
 
 ## Installation
-```sh
+```bash
 # Run install script.
 ./install.sh
-
-# In vim run:
-:BundleInstall
 ```
 
 ## Plugins
