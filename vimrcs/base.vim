@@ -25,6 +25,3 @@ endif
 " Add git status to statusline.
 set laststatus=2
 
-" Tell vim to back, back, back it up.
-backup
-backupdir=~/.vim/backup
