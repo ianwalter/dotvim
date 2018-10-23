@@ -2,12 +2,14 @@
 > Ian's vim configuration (part of [dotfiles](https://github.com/ianwalter/dotfiles)).
 
 ## Installation
-```bash
+
+```console
 # Run install script.
 ./install.sh
 ```
 
 ## Plugins
+
 - [tpope/vim-fugitive](https://github.com/tpope/vim-fugitive) - Git
   - `:Gstatus` Status
   - `:Gblame` Blame
@@ -30,7 +32,8 @@
 - [godlygeek/tabular](https://github.com/godlygeek/tabular) - Lines up text with tabs
   - `:Tabularize /[pattern]`
 - [plasticboy/vim-markdown](https://github.com/plasticboy/vim-markdown)
-  - TODO
+  - `]]` Go to next header
+  - `[[` Go to previous header
 - [junegunn/goyo.vim](https://github.com/junegunn/goyo.vim) - Distraction-free writing
   - `:Goyo`
 - [vim-scripts/sql.vim--Stinson](https://github.com/vim-scripts/sql.vim--Stinson) - Better SQL syntax highlighting
@@ -39,6 +42,7 @@
 - [elixir-lang/vim-elixir](https://github.com/elixir-lang/vim-elixir) - Vim configuration files for Elixir
 
 ## Shortcuts
+
 - `i` Insert
 - `a` Append
 - `Shift+v` Highlight mode
@@ -56,4 +60,4 @@
 
 &nbsp;
 
-Created by [Ian Kennington Walter](http://iankwalter.com).
+Created by [Ian Walter](http://iankwalter.com).

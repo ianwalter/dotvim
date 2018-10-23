@@ -23,10 +23,16 @@ Plugin 'vim-scripts/sql.vim--Stinson'
 Plugin 'itchyny/lightline.vim'
 Plugin 'fatih/vim-go'
 Plugin 'elixir-lang/vim-elixir'
+Plugin 'posva/vim-vue'
 
-" All of your Plugins must be added before the following line
+" All of your Plugins must be added before the following line.
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Disable folding by vim-markdown
+" Disable folding by vim-markdown.
 let g:vim_markdown_folding_disabled=1
+
+" Disabling preprocessor checking.
+let g:vue_disable_pre_processors=1
+
+map <C-n> :NERDTreeToggle<CR>
