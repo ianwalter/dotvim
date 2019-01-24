@@ -1,4 +1,4 @@
-# [dotvimrc](https://github.com/ianwalter/dotvimrc)
+# [dotvim](https://github.com/ianwalter/dotvim)
 > Ian's vim configuration (part of [dotfiles](https://github.com/ianwalter/dotfiles)).
 
 ## Installation
