@@ -17,8 +17,6 @@
   - `:Git [command]` All git commands
 - [tpope/vim-surround](https://github.com/tpope/vim-surround) - Quoting/parenthesizing
   - `cs[sorrounding][replacement]`
-- [sjl/gundo.vim](https://github.com/sjl/gundo.vim) - Visual undo tree
-  - TODO
 - [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) - Tree explorer
   - `:NERDtree` to toggle
   - `<Ctrl+w><Ctrl+w>` to switch between windows
