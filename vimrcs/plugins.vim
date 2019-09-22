@@ -22,7 +22,6 @@ Plugin 'junegunn/goyo.vim'
 Plugin 'vim-scripts/sql.vim--Stinson'
 Plugin 'itchyny/lightline.vim'
 Plugin 'fatih/vim-go'
-Plugin 'elixir-lang/vim-elixir'
 Plugin 'posva/vim-vue'
 
 " All of your Plugins must be added before the following line.

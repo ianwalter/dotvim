@@ -39,7 +39,6 @@
 - [vim-scripts/sql.vim--Stinson](https://github.com/vim-scripts/sql.vim--Stinson) - Better SQL syntax highlighting
 - [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) - Configurable statusline
 - [fatih/vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim
-- [elixir-lang/vim-elixir](https://github.com/elixir-lang/vim-elixir) - Vim configuration files for Elixir
 
 ## Shortcuts
 
