@@ -14,6 +14,6 @@ cat vimrcs/base.vim vimrcs/plugins.vim > ~/.vimrc
 vim +PluginInstall +qall
 
 if [[ $? == 0 ]]; then
-  echo "\n✅ Installed vim configuration successfully."
+  printf '\n✅ Installed vim configuration successfully.\n'
 fi
 

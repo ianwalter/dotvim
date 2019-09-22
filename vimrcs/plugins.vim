@@ -1,13 +1,11 @@
 set nocompatible              " be iMproved, required
 filetype off                  " required
 
-" set the runtime path to include Vundle and initialize
+" Set the runtime path to include Vundle and initialize.
 set rtp+=~/.vim/bundle/Vundle.vim
 call vundle#begin()
-" alternatively, pass a path where Vundle should install plugins
-"call vundle#begin('~/some/path/here')
 
-" let Vundle manage Vundle, required
+" Let Vundle manage Vundle (required).
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'tpope/vim-fugitive'
@@ -19,9 +17,10 @@ Plugin 'godlygeek/tabular'
 Plugin 'plasticboy/vim-markdown'
 Plugin 'junegunn/goyo.vim'
 Plugin 'vim-scripts/sql.vim--Stinson'
-Plugin 'itchyny/lightline.vim'
+Plugin 'vim-airline/vim-airline'
 Plugin 'fatih/vim-go'
 Plugin 'posva/vim-vue'
+Plugin 'dense-analysis/ale'
 
 " Add homebrew fzf to the vim path.
 set rtp+=/usr/local/opt/fzf

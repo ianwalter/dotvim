@@ -33,8 +33,12 @@
 - [junegunn/goyo.vim](https://github.com/junegunn/goyo.vim) - Distraction-free writing
   - `:Goyo`
 - [vim-scripts/sql.vim--Stinson](https://github.com/vim-scripts/sql.vim--Stinson) - Better SQL syntax highlighting
-- [itchyny/lightline.vim](https://github.com/itchyny/lightline.vim) - Configurable statusline
+- [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) - Status/tabline for vim
 - [fatih/vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim
+- [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim) - A command-line fuzzy finder
+  - `:FZF`
+  - `:History`
+
 
 ## Shortcuts
 
@@ -56,3 +60,5 @@
 &nbsp;
 
 Created by [Ian Walter](http://iankwalter.com).
+
+

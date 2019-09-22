@@ -38,3 +38,16 @@ map <C-n> :NERDTreeToggle<CR>
 " Close vim if NERDTree is the only thing left open.
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+" Integrate ALE with vim-airline.
+let g:airline#extensions#ale#enabled = 1
+
+" Disable the ALE gutter.
+let g:ale_set_signs = 0
+
+" Disable folding by vim-markdown.
+let g:vim_markdown_folding_disabled=1
+
+" Disabling preprocessor checking.
+let g:vue_disable_pre_processors=1
+
+
