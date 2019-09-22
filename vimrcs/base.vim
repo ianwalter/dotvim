@@ -56,3 +56,4 @@ let g:workspace_session_directory = $HOME . '/.vim/sessions/'
 " Tell workspace to always autosave changes.
 let g:workspace_autosave_always = 1
 
+

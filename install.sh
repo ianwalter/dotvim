@@ -13,6 +13,14 @@ cat vimrcs/base.vim vimrcs/plugins.vim > ~/.vimrc
 # Install plugins.
 vim +PluginInstall +qall
 
+# Compile YouCompleteMe.
+currentDirectory=$(cwd)
+cd ~/.vim/bundle/youcompleteme
+./install.py --clang-completer
+
+# Install JavaScript support for YouCompleteMe.
+npm install -g --prefix ~/.vim/bundle/youcompleteme/third_party/tsserver typescript
+
 if [[ $? == 0 ]]; then
   printf '\n✅ Installed vim configuration successfully.\n'
 fi
