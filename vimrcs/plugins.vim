@@ -1,4 +1,5 @@
 set nocompatible              " be iMproved, required
+
 filetype off                  " required
 
 " Set the runtime path to include Vundle and initialize.
@@ -21,12 +22,10 @@ Plugin 'vim-airline/vim-airline'
 Plugin 'fatih/vim-go'
 Plugin 'posva/vim-vue'
 Plugin 'dense-analysis/ale'
-
-" Add homebrew fzf to the vim path.
-set rtp+=/usr/local/opt/fzf
-
-" Add the fzf.vim plugin to wrap fzf.
-Plugin 'junegunn/fzf.vim'
+Plugin 'ctrlpvim/ctrlp.vim'
+Plugin 'mbbill/undotree'
+Plugin 'editorconfig/editorconfig-vim'
+Plugin 'thaerkh/vim-workspace'
 
 " All of your Plugins must be added before the following line.
 call vundle#end()            " required

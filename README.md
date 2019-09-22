@@ -35,9 +35,9 @@
 - [vim-scripts/sql.vim--Stinson](https://github.com/vim-scripts/sql.vim--Stinson) - Better SQL syntax highlighting
 - [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) - Status/tabline for vim
 - [fatih/vim-go](https://github.com/fatih/vim-go) - Go development plugin for Vim
-- [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim) - A command-line fuzzy finder
-  - `:FZF`
-  - `:History`
+- [ctrlpvim/ctrlp.vim](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, mru, tag, etc finder
+- [mbbill/undotree](https://github.com/mbbill/undotree) - 
+  - `:UndotreeToggle`
 
 
 ## Shortcuts

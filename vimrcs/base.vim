@@ -50,4 +50,9 @@ let g:vim_markdown_folding_disabled=1
 " Disabling preprocessor checking.
 let g:vue_disable_pre_processors=1
 
+" Save workspace sessions in a global directory instead of CWD.
+let g:workspace_session_directory = $HOME . '/.vim/sessions/'
+
+" Tell workspace to always autosave changes.
+let g:workspace_autosave_always = 1
 
