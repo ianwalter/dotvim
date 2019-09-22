@@ -23,14 +23,13 @@ Plugin 'itchyny/lightline.vim'
 Plugin 'fatih/vim-go'
 Plugin 'posva/vim-vue'
 
+" Add homebrew fzf to the vim path.
+set rtp+=/usr/local/opt/fzf
+
+" Add the fzf.vim plugin to wrap fzf.
+Plugin 'junegunn/fzf.vim'
+
 " All of your Plugins must be added before the following line.
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Disable folding by vim-markdown.
-let g:vim_markdown_folding_disabled=1
-
-" Disabling preprocessor checking.
-let g:vue_disable_pre_processors=1
-
-map <C-n> :NERDTreeToggle<CR>
