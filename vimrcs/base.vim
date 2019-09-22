@@ -56,4 +56,18 @@ let g:workspace_session_directory = $HOME . '/.vim/sessions/'
 " Tell workspace to always autosave changes.
 let g:workspace_autosave_always = 1
 
+"
+let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
+
+"
+let g:ycm_key_list_select_completion=[]
+let g:ycm_key_list_previous_completion=[]
+
+" 
+let g:UltiSnipsExpandTrigger = "<tab>"
+let g:UltiSnipsJumpForwardTrigger = "<tab>"
+let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
+
+" If you want :UltiSnipsEdit to split your window.
+let g:UltiSnipsEditSplit="vertical"
 

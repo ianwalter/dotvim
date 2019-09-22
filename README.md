@@ -39,7 +39,7 @@
 - [valloric/youcompleteme][ycmUrl] - Code-completion engine
 - [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) - Status/tabline
 - [vim-scripts/sql.vim--Stinson](https://github.com/vim-scripts/sql.vim--Stinson) - Better SQL syntax highlighting
-- [fatih/vim-go](https://github.com/fatih/vim-go) - Go development plugin 
+- [fatih/vim-go](https://github.com/fatih/vim-go) - Go development plugin
 
 ## Cheat sheet
 

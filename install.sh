@@ -14,12 +14,19 @@ cat vimrcs/base.vim vimrcs/plugins.vim > ~/.vimrc
 vim +PluginInstall +qall
 
 # Compile YouCompleteMe.
-currentDirectory=$(cwd)
-cd ~/.vim/bundle/youcompleteme
-./install.py --clang-completer
+if [[ $1 != '' ]]; then
+  currentDirectory=$(pwd)
+  cd ~/.vim/bundle/youcompleteme
+  ./install.py --clang-completer
+  cd $currentDirectory
 
-# Install JavaScript support for YouCompleteMe.
-npm install -g --prefix ~/.vim/bundle/youcompleteme/third_party/tsserver typescript
+
+  # Install JavaScript support for YouCompleteMe.
+  npm install -g --prefix ~/.vim/bundle/youcompleteme/third_party/tsserver typescript
+fi
+
+# Copy UltiSnips snippets directory to vim configuration directory.
+cp -R UltiSnips ~/.vim
 
 if [[ $? == 0 ]]; then
   printf '\n✅ Installed vim configuration successfully.\n'

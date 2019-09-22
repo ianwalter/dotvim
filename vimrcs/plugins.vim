@@ -26,7 +26,7 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mbbill/undotree'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'thaerkh/vim-workspace'
-Plugin 'valloric/youcompleteme'
+Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 
 " All of your Plugins must be added before the following line.
