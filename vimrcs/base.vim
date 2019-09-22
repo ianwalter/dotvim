@@ -31,3 +31,10 @@ set backspace=indent,eol,start
 " Open NERDTree when starting vim if no file was specified.
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
+
+" Open NERDTree with <Ctrl+n>.
+map <C-n> :NERDTreeToggle<CR>
+
+" Close vim if NERDTree is the only thing left open.
+autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
+
