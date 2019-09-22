@@ -25,5 +25,5 @@ endif
 " Add git status to statusline.
 set laststatus=2
 
-" Make backspace work again
+" Make backspace work again.
 set backspace=indent,eol,start

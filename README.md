@@ -17,8 +17,6 @@
   - `:Git [command]` All git commands
 - [tpope/vim-surround](https://github.com/tpope/vim-surround) - Quoting/parenthesizing
   - `cs[sorrounding][replacement]`
-- [nathanaelkane/vim-indent-guides](https://github.com/nathanaelkane/vim-indent-guides) - Visual indentation guides
-  - TODO Figure out toggle command
 - [sjl/gundo.vim](https://github.com/sjl/gundo.vim) - Visual undo tree
   - TODO
 - [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) - Tree explorer
