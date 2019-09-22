@@ -18,7 +18,7 @@
 - [tpope/vim-surround](https://github.com/tpope/vim-surround) - Quoting/parenthesizing
   - `cs[sorrounding][replacement]`
 - [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) - Tree explorer
-  - `:NERDtree` to toggle
+  - `:NERDTreeToggle` to toggle
   - `<Ctrl+w><Ctrl+w>` to switch between windows
 - [scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter) - Commenting
   - `\cc` to comment a line
