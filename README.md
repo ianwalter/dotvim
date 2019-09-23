@@ -58,6 +58,8 @@
 
 ### Editing
 
+- `:e <file>` Edit a file, if no file is passed, the current file is reloaded
+
 #### Selection
 
 - `v` Start character selection
@@ -93,6 +95,7 @@
 - `:b <tab>` Switch between buffers
 - `Ctrl+o` Jump to last buffer
 - `:ls` List buffers
+- `:Bwipeout` Close current buffer
 
 
 &nbsp;

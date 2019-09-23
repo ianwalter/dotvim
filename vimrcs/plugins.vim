@@ -28,6 +28,7 @@ Plugin 'editorconfig/editorconfig-vim'
 Plugin 'thaerkh/vim-workspace'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
+Plugin 'moll/vim-bbye'
 
 " All of your Plugins must be added before the following line.
 call vundle#end()            " required
