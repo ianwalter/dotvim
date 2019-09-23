@@ -10,6 +10,11 @@ fi
 # Concatenate base and plugin configurations into a single vim configuration.
 cat vimrcs/base.vim vimrcs/plugins.vim > ~/.vimrc
 
+if [[ $(uname) == 'Darwin' ]]; then
+  echo "\" Integrate vim clipboard with MacOS system clipboard." >> ~/.vimrc
+  printf "set clipboard=unnamed\n\n" >> ~/.vimrc
+fi
+
 # Install plugins.
 vim +PluginInstall +qall
 
