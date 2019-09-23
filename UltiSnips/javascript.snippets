@@ -1,10 +1,36 @@
-snippet fn "function" b
+snippet fn "Function" b
 function ${1:myFn} ($2) {
-		${0:${VISUAL}}
+	${0:${VISUAL}}
 }
 endsnippet
 
-snippet # "hashbang" b
+snippet # "Hashbang" b
 #!/usr/bin/env node
+endsnippet
+
+snippet cli "CLI" b
+const cli = require('@ianwalter/cli')
+
+const config = cli({ name: '$1' })
+
+async function run () {
+	${0:${VISUAL}}
+}
+
+run()
+endsnippet
+
+snippet test "Bff test" b 
+test('${1:name}', ({ expect }) => {
+	${0:${VISUAL}}
+})
+endsnippet
+
+snippet tc "Try-Catch" b
+try {
+	${0:${VISUAL}}
+} catch (err) {
+
+}
 endsnippet
 
