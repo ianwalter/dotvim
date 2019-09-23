@@ -30,6 +30,10 @@ Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'moll/vim-bbye'
 
+" Install fzf.vim (mostly for the ripgrep, :Rg command for search.
+set rtp+=/usr/local/opt/fzf
+Plugin 'junegunn/fzf.vim'
+
 " All of your Plugins must be added before the following line.
 call vundle#end()            " required
 filetype plugin indent on    " required

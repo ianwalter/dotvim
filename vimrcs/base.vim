@@ -71,3 +71,7 @@ let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
 
+" Create a vertical line at column 80 to help enforce line lengths.
+set colorcolumn=80
+highlight ColorColumn ctermbg=8
+
