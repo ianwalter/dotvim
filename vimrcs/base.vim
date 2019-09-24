@@ -32,6 +32,9 @@ set backspace=indent,eol,start
 autocmd StdinReadPre * let s:std_in=1
 autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
 
+" Show hidden files in NERDTree.
+let NERDTreeShowHidden=1
+
 " Open NERDTree with <Ctrl+n>.
 map <C-n> :NERDTreeToggle<CR>
 
@@ -63,7 +66,7 @@ let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
 
-" 
+"
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
