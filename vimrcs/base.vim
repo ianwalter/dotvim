@@ -41,6 +41,9 @@ map <C-n> :NERDTreeToggle<CR>
 " Close vim if NERDTree is the only thing left open.
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+" Show hidden files in ctrlp.
+let g:ctrlp_show_hidden = 1
+
 " Integrate ALE with vim-airline.
 let g:airline#extensions#ale#enabled = 1
 
