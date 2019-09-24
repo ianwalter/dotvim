@@ -29,6 +29,7 @@ Plugin 'thaerkh/vim-workspace'
 Plugin 'Valloric/YouCompleteMe'
 Plugin 'SirVer/ultisnips'
 Plugin 'moll/vim-bbye'
+Plugin 'martinda/jenkinsfile-vim-syntax'
 
 " Install fzf.vim (mostly for the ripgrep, :Rg command for search.
 set rtp+=/usr/local/opt/fzf
