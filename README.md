@@ -49,6 +49,7 @@
 - `j` Down
 - `k` Up
 - `l` Right
+- `123G` Go to line `123`
 
 ### Input modes
 
