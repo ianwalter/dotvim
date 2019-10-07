@@ -81,3 +81,5 @@ let g:UltiSnipsEditSplit="vertical"
 set colorcolumn=80
 highlight ColorColumn ctermbg=8
 
+" Highlight all search matches.
+set hlsearch

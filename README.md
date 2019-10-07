@@ -98,6 +98,9 @@
 - `:ls` List buffers
 - `:Bwipeout` Close current buffer
 
+## Search
+
+- `:noh` Turn off search highlighting
 
 &nbsp;
 
