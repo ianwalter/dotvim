@@ -65,11 +65,13 @@ let g:workspace_autosave_always = 1
 "
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
 
-"
+" Stop YouCompleteMe from using tab completion and close the popup when a
+" suggestion is selected using <enter>.
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
+let g:ycm_key_list_stop_completion = ['<C-y>', '<CR>']
 
-"
+" Allow UltiSnips to use tab completion.
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
