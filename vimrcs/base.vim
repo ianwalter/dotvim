@@ -41,6 +41,9 @@ map <C-n> :NERDTreeToggle<CR>
 " Close vim if NERDTree is the only thing left open.
 autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
 
+" Show hidden files in ctrlp.
+let g:ctrlp_show_hidden = 1
+
 " Integrate ALE with vim-airline.
 let g:airline#extensions#ale#enabled = 1
 
@@ -62,11 +65,13 @@ let g:workspace_autosave_always = 1
 "
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
 
-"
+" Stop YouCompleteMe from using tab completion and close the popup when a
+" suggestion is selected using <enter>.
 let g:ycm_key_list_select_completion=[]
 let g:ycm_key_list_previous_completion=[]
+let g:ycm_key_list_stop_completion = ['<C-y>', '<CR>']
 
-"
+" Allow UltiSnips to use tab completion.
 let g:UltiSnipsExpandTrigger = "<tab>"
 let g:UltiSnipsJumpForwardTrigger = "<tab>"
 let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
@@ -78,3 +83,5 @@ let g:UltiSnipsEditSplit="vertical"
 set colorcolumn=80
 highlight ColorColumn ctermbg=8
 
+" Highlight all search matches.
+set hlsearch
