@@ -1,5 +1,8 @@
 " Turn syntax highlighting on.
-syntax on
+syntax enable
+
+" Enable 24-bit true color.
+set termguicolors
 
 " Display line numbers on the left.
 set number
@@ -85,3 +88,6 @@ highlight ColorColumn ctermbg=8
 
 " Highlight all search matches.
 set hlsearch
+
+"
+let g:airline#extensions#tabline#enabled = 1

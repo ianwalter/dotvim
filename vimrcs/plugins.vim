@@ -9,6 +9,7 @@ call vundle#begin()
 " Let Vundle manage Vundle (required).
 Plugin 'gmarik/Vundle.vim'
 
+Plugin 'rigellute/rigel'
 Plugin 'tpope/vim-fugitive'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
@@ -22,8 +23,8 @@ Plugin 'ctrlpvim/ctrlp.vim'
 Plugin 'mbbill/undotree'
 Plugin 'editorconfig/editorconfig-vim'
 Plugin 'thaerkh/vim-workspace'
-Plugin 'Valloric/YouCompleteMe'
-Plugin 'SirVer/ultisnips'
+" Plugin 'Valloric/YouCompleteMe'
+" Plugin 'SirVer/ultisnips'
 Plugin 'moll/vim-bbye'
 Plugin 'sheerun/vim-polyglot'
 
@@ -35,3 +36,7 @@ Plugin 'junegunn/fzf.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
+" Enable rigel color scheme.
+colorscheme rigel
+let g:rigel_airline = 1
+let g:airline_theme = 'rigel'
