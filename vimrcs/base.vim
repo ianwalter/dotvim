@@ -91,3 +91,9 @@ set hlsearch
 
 "
 let g:airline#extensions#tabline#enabled = 1
+
+" Tell ctrlp to use ripgrep for searching files.
+let g:ctrlp_user_command = 'rg %s --files --color=never --glob ""'
+
+" Stop ctrlp to stop clearing its cache all the time.
+let g:ctrlp_clear_cache_on_exit = 0
