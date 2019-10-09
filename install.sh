@@ -13,6 +13,9 @@ cat vimrcs/base.vim vimrcs/plugins.vim > ~/.vimrc
 if [[ $(uname) == 'Darwin' ]]; then
   echo "\" Integrate vim clipboard with MacOS system clipboard." >> ~/.vimrc
   printf "set clipboard=unnamed\n\n" >> ~/.vimrc
+else
+  echo "\" Get fzf working with vim on Linux." >> ~/.vimrc
+  printf "source /usr/share/doc/fzf/examples/fzf.vim\n\n" >> ~/.vimrc
 fi
 
 # Install plugins.
@@ -21,7 +24,7 @@ vim +PluginInstall +qall
 # Compile YouCompleteMe.
 if [[ $1 != '' ]]; then
   currentDirectory=$(pwd)
-  cd ~/.vim/bundle/youcompleteme
+  cd ~/.vim/bundle/YouCompleteMe
   ./install.py --clang-completer
   cd $currentDirectory
 
