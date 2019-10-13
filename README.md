@@ -62,35 +62,42 @@
 - `u` Undo
 - `<ctrl>r` Redo
 
-#### Selection
+### Selection
 
 - `v` Start character selection
 - `gv` Start block selection
 - `<shift>v` Start line selection
 - `v<shift>(arrow)` Select line chunks in the direction of the arrow
 
-#### Copy/Paste
+### Copy/Paste
 
 - `y` Copy (yank)
 - `p` Paste
+- `ea<space><ctrl-r>"` Go to the end of a word, add a space, paste
 
-#### Cut/Delete
+### Cut/Delete
 
 - `d` Cut
 - `dd` Delete line (or cut in highlight mode)
 - `d$` Delete from cursor to end of line
 
-#### Change
+### Change
 
 - `c$` Change from cursor to end of line
 - `cw` Change word
 
-#### Lines    
+### Indenting
+
+- `<ctrl>>` Indent
+- `<ctrl><` Deindent
+- `.` Repeat indent/deindent
+
+### Lines    
 
 - `Enter` New line below cursor
 - `Shift+Enter` New line above cursor
 
-## Tabs
+### Tabs
 
 - `t` Open NERDTree file in new tab
 - `<ctrl>t` Open ctrlp or fzf file in new tab
@@ -98,7 +105,7 @@
 - `#gt` Go to numbered tab
 - `gT` Go to previous tab
 
-## Buffers (open files)
+### Buffers (open files)
 
 - `:e (file)` Edit a file, if no file is passed, the current file is reloaded
 - `:b<tab>` Switch between buffers
@@ -109,7 +116,7 @@
 - `:q!` Quit buffer and ignore modifications
 - `:qa` Quit all buffers
 
-## Search
+### Search
 
 - `:noh` Turn off search highlighting
 
