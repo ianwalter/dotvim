@@ -54,7 +54,9 @@
 ### Input modes
 
 - `i` Insert
+- `I` Insert at beginning of the current line
 - `a` Append
+- `A` Append at the end of the current line
 - `:set paste` Paste-insert mode
 
 ### Undo
@@ -94,8 +96,9 @@
 
 ### Lines    
 
-- `Enter` New line below cursor
-- `Shift+Enter` New line above cursor
+- `<enter>` New line below cursor
+- `o` New line below cursor and switch to input mode
+- `O` New line above cursor and switch to input mode
 
 ### Tabs
 
