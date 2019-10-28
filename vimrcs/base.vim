@@ -19,11 +19,11 @@ set listchars=""
 set listchars=tab:\ \
 set listchars+=trail:.
 
-" Configure searching.
-set hlsearch    " highlight matches
-set incsearch   " incremental searching
-set ignorecase  " searches are case insensitive...
-set smartcase   " ... unless they contain at least one capital letter
+" Configure search (borrowed from https://github.com/carlhuda/janus).
+set hlsearch    " Highlight matches.
+set incsearch   " Incremental searching.
+set ignorecase  " Searches are case insensitive...
+set smartcase   " ...unless they contain at least one capital letter.
 
 " Use continuous indenting.
 set cindent
