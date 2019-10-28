@@ -67,7 +67,7 @@
 ### Selection
 
 - `v` Start character selection
-- `gv` Start block selection
+- `viw` Select inner word
 - `<shift>v` Start line selection
 - `v<shift>(arrow)` Select line chunks in the direction of the arrow
 
