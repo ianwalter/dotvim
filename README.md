@@ -75,6 +75,7 @@
 
 - `y` Copy (yank)
 - `p` Paste
+- `"0p` Paste from yank register instead of default register
 - `ea<space><ctrl-r>"` Go to the end of a word, add a space, paste
 
 ### Cut/Delete
