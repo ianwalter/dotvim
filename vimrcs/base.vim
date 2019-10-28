@@ -13,6 +13,12 @@ set expandtab
 " Set tab width to 2 spaces.
 set tabstop=2 shiftwidth=2
 
+" Highlight trailing whitespace.
+set list
+set listchars=""
+set listchars=tab:\ \
+set listchars+=trail:.
+
 " Use continuous indenting.
 set cindent
 
