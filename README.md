@@ -14,7 +14,7 @@
   - `<ctrl>ww` Toggle between buffer and tree panes
 - [ctrlpvim/ctrlp.vim](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, MRU finder
   - `<ctrl>p` Open file menu
-  - `<ctrl>cc` Paste from clipboard
+  - `<ctrl>\c` Paste from clipboard
 - [SirVer/ultisnips][ultisnipsUrl] - Code snippet manager
 - [scrooloose/nerdcommenter](https://github.com/scrooloose/nerdcommenter) - Commenting
   - `\cc` to comment a line
