@@ -19,6 +19,12 @@ set listchars=""
 set listchars=tab:\ \
 set listchars+=trail:.
 
+" Configure searching.
+set hlsearch    " highlight matches
+set incsearch   " incremental searching
+set ignorecase  " searches are case insensitive...
+set smartcase   " ... unless they contain at least one capital letter
+
 " Use continuous indenting.
 set cindent
 
@@ -91,9 +97,6 @@ let g:UltiSnipsEditSplit="vertical"
 " Create a vertical line at column 80 to help enforce line lengths.
 set colorcolumn=80
 highlight ColorColumn ctermbg=8
-
-" Highlight all search matches.
-set hlsearch
 
 "
 let g:airline#extensions#tabline#enabled = 1
