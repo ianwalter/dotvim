@@ -124,6 +124,7 @@
 ### Search
 
 - `:noh` Turn off search highlighting
+- `:%s/<find>/<replace>/g` Find and replace in all lines
 
 &nbsp;
 
