@@ -51,6 +51,8 @@
 - `k` Up
 - `l` Right
 - `123G` Go to line `123`
+- `gf` Go to file
+- `gd` Go to local definition
 
 ### Input modes
 
