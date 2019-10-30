@@ -128,8 +128,11 @@
 
 ### Folding
 
-- `za` Toggle fold
+- `za` Toggle 1-level fold
+- `zA` Toggle all-level fold
+- `zr` Unfold all 1-level
 - `zR` Unfold all
+- `zm` Fold all 1-level
 - `zM` Fold all
 
 &nbsp;
