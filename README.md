@@ -126,6 +126,12 @@
 - `:noh` Turn off search highlighting
 - `:%s/<find>/<replace>/g` Find and replace in all lines
 
+### Folding
+
+- `za` Toggle fold
+- `zR` Unfold all
+- `zM` Fold all
+
 &nbsp;
 
 Created by [Ian Walter](http://iankwalter.com).

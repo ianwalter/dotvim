@@ -28,6 +28,10 @@ set smartcase   " ...unless they contain at least one capital letter.
 " Use continuous indenting.
 set cindent
 
+" Enable code folding.
+set foldmethod=syntax
+set nofoldenable
+
 " Add blank line above and below cursor shortcut.
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>
