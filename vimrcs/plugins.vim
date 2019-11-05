@@ -10,7 +10,10 @@ call vundle#begin()
 Plugin 'gmarik/Vundle.vim'
 
 Plugin 'rigellute/rigel'
+" Git plugin
 Plugin 'tpope/vim-fugitive'
+" GitHub-specific extension for git plugin
+Plugin 'tpope/vim-rhubarb'
 Plugin 'tpope/vim-surround'
 Plugin 'scrooloose/nerdtree'
 Plugin 'scrooloose/nerdcommenter'

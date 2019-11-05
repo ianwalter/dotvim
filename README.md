@@ -52,6 +52,7 @@
 - `l` Right
 - `123G` Go to line `123`
 - `gf` Go to file
+- `<ctrl>wgf` Go to file in a new tab
 - `gd` Go to local definition
 
 ### Input modes

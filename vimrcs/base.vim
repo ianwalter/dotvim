@@ -32,6 +32,12 @@ set cindent
 set foldmethod=syntax
 set nofoldenable
 
+" Configure commenting behavior.
+let g:NERDSpaceDelims = 1
+let g:NERDTrimTrailingWhitespace = 1
+let g:NERDDefaultAlign = 'left'
+let g:NERDCommentEmptyLines = 1
+
 " Add blank line above and below cursor shortcut.
 map <Enter> o<ESC>
 map <S-Enter> O<ESC>
