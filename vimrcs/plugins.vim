@@ -30,6 +30,7 @@ Plugin 'thaerkh/vim-workspace'
 " Plugin 'SirVer/ultisnips'
 Plugin 'moll/vim-bbye'
 Plugin 'sheerun/vim-polyglot'
+Plugin 'christoomey/vim-tmux-navigator'
 
 " Install fzf.vim (mostly for the ripgrep, :Rg command for search.
 set rtp+=/usr/local/opt/fzf
