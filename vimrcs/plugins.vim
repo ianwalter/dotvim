@@ -9,7 +9,7 @@ call vundle#begin()
 " Let Vundle manage Vundle (required).
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'rigellute/rigel'
+Plugin 'ianwalter/brooks.vim'
 " Git plugin
 Plugin 'tpope/vim-fugitive'
 " GitHub-specific extension for git plugin
@@ -40,7 +40,5 @@ Plugin 'junegunn/fzf.vim'
 call vundle#end()            " required
 filetype plugin indent on    " required
 
-" Enable rigel color scheme.
-colorscheme rigel
-let g:rigel_airline = 1
-let g:airline_theme = 'rigel'
+" Enable brooks color scheme.
+colorscheme brooks

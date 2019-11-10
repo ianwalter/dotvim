@@ -6,6 +6,11 @@ set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
+nnoremap ^[[A <Up>
+nnoremap ^[[B <Down>
+nnoremap ^[[D <Left>
+nnoremap ^[[C <Right>
+
 " Display line numbers on the left.
 set number
 
@@ -20,6 +25,9 @@ set list
 set listchars=""
 set listchars=tab:\ \
 set listchars+=trail:.
+
+" Create a vertical line at column 80 to help enforce line lengths.
+set colorcolumn=80
 
 " Configure search (borrowed from https://github.com/carlhuda/janus).
 set hlsearch    " Highlight matches.
@@ -108,10 +116,6 @@ let g:UltiSnipsJumpBackwardTrigger = "<s-tab>"
 
 " If you want :UltiSnipsEdit to split your window.
 let g:UltiSnipsEditSplit="vertical"
-
-" Create a vertical line at column 80 to help enforce line lengths.
-set colorcolumn=80
-highlight ColorColumn ctermbg=8
 
 "
 let g:airline#extensions#tabline#enabled = 1
