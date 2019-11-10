@@ -38,8 +38,8 @@ set smartcase   " ...unless they contain at least one capital letter.
 " Use continuous indenting.
 set cindent
 
-" Enable code folding.
-set foldmethod=syntax
+" Enable code folding. Not using 'syntax' because it is too slow.
+set foldmethod=indent
 set nofoldenable
 
 " Configure commenting behavior.
