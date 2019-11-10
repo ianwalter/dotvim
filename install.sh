@@ -39,4 +39,3 @@ cp -R UltiSnips ~/.vim
 if [[ $? == 0 ]]; then
   printf '\n✅ Installed vim configuration successfully.\n'
 fi
-
