@@ -42,3 +42,4 @@ filetype plugin indent on    " required
 
 " Enable brooks color scheme.
 colorscheme brooks
+let g:airline_theme = 'brooks'
