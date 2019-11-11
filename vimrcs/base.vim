@@ -6,6 +6,7 @@ set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
+" Use the arrow keys for hjkl navigation.
 nnoremap ^[[A <Up>
 nnoremap ^[[B <Down>
 nnoremap ^[[D <Left>
@@ -100,7 +101,7 @@ let g:workspace_session_directory = $HOME . '/.vim/sessions/'
 " Tell workspace to always autosave changes.
 let g:workspace_autosave_always = 1
 
-"
+" Set UltiSnips snippets directory.
 let g:UltiSnipsSnippetDirectories=[$HOME.'/.vim/UltiSnips']
 
 " Stop YouCompleteMe from using tab completion and close the popup when a

@@ -45,17 +45,6 @@
 
 ## Cheat sheet
 
-### Navigation
-
-- `h` Left
-- `j` Down
-- `k` Up
-- `l` Right
-- `123G` Go to line `123`
-- `gf` Go to file
-- `<ctrl>wgf` Go to file in a new tab
-- `gd` Go to local definition
-
 ### Input modes
 
 - `i` Insert
@@ -63,6 +52,23 @@
 - `a` Append
 - `A` Append at the end of the current line
 - `:set paste` Paste-insert mode
+
+### Navigation
+
+#### Normal mode
+
+- `<LeftArrow>` Left
+- `<DownArrow>` Down
+- `<UpArrow>` Up
+- `<RightArrow>` Right
+- `W` Forward/right word navigation
+- `B` Backward/left word navigation
+- `<Home>` or `<Fn><LeftArrow>` Go to beginning of the line
+- `<End>` or `<Fn><RightArrow>` Go to end of the line
+- `123G` Go to line `123`
+- `gf` Go to file
+- `<ctrl>wgf` Go to file in a new tab
+- `gd` Go to local definition
 
 ### Undo
 
@@ -100,7 +106,7 @@
 - `<ctrl><` Deindent
 - `.` Repeat indent/deindent
 
-### Lines    
+### Lines
 
 - `<enter>` New line below cursor
 - `o` New line below cursor and switch to input mode
