@@ -11,11 +11,13 @@ fi
 cat vimrcs/base.vim vimrcs/plugins.vim > ~/.vimrc
 
 if [[ $(uname) == 'Darwin' ]]; then
+  echo "" >> ~/.vimrc
   echo "\" Integrate vim clipboard with MacOS system clipboard." >> ~/.vimrc
-  printf "set clipboard=unnamed\n\n" >> ~/.vimrc
+  printf "set clipboard=unnamed\n" >> ~/.vimrc
 else
+  echo "" >> ~/.vimrc
   echo "\" Get fzf working with vim on Linux." >> ~/.vimrc
-  printf "source /usr/share/doc/fzf/examples/fzf.vim\n\n" >> ~/.vimrc
+  printf "source /usr/share/doc/fzf/examples/fzf.vim\n" >> ~/.vimrc
 fi
 
 # Install plugins.
