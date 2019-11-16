@@ -6,7 +6,7 @@ set termguicolors
 let &t_8f = "\<Esc>[38;2;%lu;%lu;%lum"
 let &t_8b = "\<Esc>[48;2;%lu;%lu;%lum"
 
-" Use the arrow keys for hjkl navigation.
+" Use the arrow keys for HJKL navigation.
 nnoremap ^[[A <Up>
 nnoremap ^[[B <Down>
 nnoremap ^[[D <Left>
@@ -20,6 +20,12 @@ set expandtab
 
 " Set tab width to 2 spaces.
 set tabstop=2 shiftwidth=2
+
+" Turn on spell checking.
+set spell
+
+" Turn on word completion in insert mode.
+set complete+=kspell
 
 " Highlight trailing whitespace.
 set list
@@ -64,10 +70,6 @@ set laststatus=2
 " Make backspace work again.
 set backspace=indent,eol,start
 
-" Open NERDTree when starting vim if no file was specified.
-autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-
 " Show hidden files in NERDTree.
 let NERDTreeShowHidden=1
 
@@ -86,9 +88,15 @@ let g:ctrlp_show_hidden = 1
 " Integrate ALE with vim-airline.
 let g:airline#extensions#ale#enabled = 1
 
-" Disable the ALE gutter.
-let g:ale_set_signs = 0
+" Keep the ALE gutter always open.
+let g:ale_sign_column_always = 1
 
+" Tell ALE to fix lint issues on save.
+let g:ale_fix_on_save = 1
+
+"
+let g:ale_sign_error = '•'
+let g:ale_sign_warning = '◦'
 " Disable folding by vim-markdown.
 let g:vim_markdown_folding_disabled=1
 

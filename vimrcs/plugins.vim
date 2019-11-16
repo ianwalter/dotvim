@@ -9,7 +9,6 @@ call vundle#begin()
 " Let Vundle manage Vundle (required).
 Plugin 'gmarik/Vundle.vim'
 
-Plugin 'ianwalter/brooks.vim'
 " Git plugin
 Plugin 'tpope/vim-fugitive'
 " GitHub-specific extension for git plugin
@@ -31,6 +30,9 @@ Plugin 'thaerkh/vim-workspace'
 Plugin 'moll/vim-bbye'
 Plugin 'sheerun/vim-polyglot'
 Plugin 'christoomey/vim-tmux-navigator'
+
+" Use the brooks theme: https://github.com/ianwalter/brooks.vim
+Plugin 'ianwalter/brooks.vim'
 
 " Install fzf.vim (mostly for the ripgrep, :Rg command for search.
 set rtp+=/usr/local/opt/fzf

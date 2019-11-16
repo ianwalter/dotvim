@@ -145,6 +145,11 @@
 - `zm` Fold all 1-level
 - `zM` Fold all
 
+### Spelling
+
+- `zg` Add word to dictionary
+- `:set nospell` Turn off spell checking
+
 &nbsp;
 
 Created by [Ian Walter](http://iankwalter.com).
