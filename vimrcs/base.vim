@@ -76,12 +76,6 @@ let NERDTreeShowHidden=1
 " Open NERDTree with <Ctrl+n>.
 map <C-n> :NERDTreeToggle<CR>
 
-" Close vim if NERDTree is the only thing left open.
-autocmd bufenter * if (winnr("$") == 1 && exists("b:NERDTree") && b:NERDTree.isTabTree()) | q | endif
-
-" Keep NERDTree open when opening a new tab.
-autocmd BufWinEnter * NERDTreeMirror
-
 " Show hidden files in ctrlp.
 let g:ctrlp_show_hidden = 1
 
