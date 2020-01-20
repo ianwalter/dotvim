@@ -124,7 +124,8 @@
 
 - `:e (file)` Edit a file, if no file is passed, the current file is reloaded
 - `:b<tab>` Switch between buffers
-- `<ctrl>o` Jump to last buffer
+- `<ctrl>o` Jump to previous buffer
+- `<ctrl>i` Jump to next buffer
 - `:ls` List buffers
 - `:wq` Write modifications and quit buffer
 - `:q` Quit buffer
