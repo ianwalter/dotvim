@@ -12,6 +12,8 @@
 - [scrooloose/nerdtree](https://github.com/scrooloose/nerdtree) - Tree explorer
   - `<ctrl>n` Toggle show/hide
   - `<ctrl>ww` Toggle between buffer and tree panes
+  - `t` Open the selected file in a new tab
+  - `R` Refresh the root directory listing
 - [ctrlpvim/ctrlp.vim](https://github.com/kien/ctrlp.vim) - Fuzzy file, buffer, MRU finder
   - `<ctrl>p` Open file menu
   - `<ctrl>\c` Paste from clipboard
