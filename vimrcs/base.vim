@@ -134,10 +134,13 @@ let g:UltiSnipsEditSplit="vertical"
 let g:airline#extensions#tabline#enabled = 1
 
 " Tell ctrlp to use ripgrep for searching files.
-let g:ctrlp_user_command = 'rg %s --files --hidden --color=never --glob ""'
+let g:ctrlp_user_command = 'rg %s --files --hidden --no-ignore --color=never --glob "!.git" --glob "!.cache"'
 
 " Tell ctrlp to stop clearing its cache all the time.
 " let g:ctrlp_clear_cache_on_exit = 0
+"
+let g:ctrlp_map = '<c-p>'
+let g:ctrlp_cmd = 'CtrlP'
 
 " Don't copy when pasting.
 xnoremap p "_dP
