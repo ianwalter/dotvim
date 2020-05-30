@@ -24,7 +24,7 @@ fi
 vim +PluginInstall +qall
 
 # Compile YouCompleteMe.
-if [[ $1 != '' ]]; then
+if [[ ! -f ~/.vim/bundle/YouCompleteMe/third_party/ycmd/ycm_core.so ]]; then
   currentDirectory=$(pwd)
   cd ~/.vim/bundle/YouCompleteMe
   ./install.py --clang-completer
